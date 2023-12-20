@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "@fontsource/open-sans";
 import Home from './components/pages/Home';
+import Information from './components/pages/Information';
 import Preloader from './components/Preloader';
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
@@ -25,6 +26,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={< Home />} />
+          <Route path='/info' element={< Information />}/>
         </Routes>
         </div>
       </Router>

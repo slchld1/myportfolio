@@ -1,0 +1,7 @@
+.body {
+    width: 100vw;
+    height: 80vh;
+}
+.bold-text {
+    font-weight: bolder;
+}
