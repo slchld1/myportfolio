@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './Home.css'
 import WorkIcon from '@mui/icons-material/Work';
 import Image from 'react-bootstrap/Image';
+import Footer from '../Footer';
 
 function Home() {
     return (
@@ -25,7 +26,7 @@ function Home() {
                                 <span className="letter">.</span>
                             </h1>
                             <h1 style={{ paddingBottom: 15 }} className='heading2' data-text="dev">
-                                A Front-End React Developer
+                                A Growing React Developer
                             </h1>
                         </Col>
                     </Row>
@@ -55,7 +56,7 @@ function Home() {
                         </Col>
                     </Row>
                 </Container>
-                <Container className='project-cont2 container'>
+                <Container className='project-cont2'>
                         <Col xs={6} className='container-rev'>
                             <div className='img-div'>
                             <a href="https://github.com/oliviasylee/firefly-cafe/tree/main?tab=readme-ov-file" target='_blank'>
@@ -80,6 +81,7 @@ function Home() {
                         </Col>
                     </Row>
                 </Container>
+            <Footer/>
             </Container>
         </section>
     )

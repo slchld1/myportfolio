@@ -27,7 +27,7 @@ html {
     margin-bottom: 0;
     padding-top: 7vw;
     padding-bottom: 7vw;
-    padding-left: 20vw;
+    padding-left: 10vw;
     border-bottom: 2px solid #404040;
 }
 
@@ -90,7 +90,7 @@ html {
     color: #404040;
     padding: 2rem;
     letter-spacing: 10px;
-    padding-left: 10vw;
+    /* padding-left: 3vw; */
 }
 .project-info {
     padding-top: 5vw;
@@ -137,7 +137,7 @@ html {
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid #404040;
-    margin-left: 13vw;
+    margin-left: 3vw;
 }
 .p-desc2 {
     display: flex;
@@ -154,6 +154,9 @@ html {
     font-size: 3rem;
     letter-spacing: 6px;
     width: 40vw;
+}
+.project-header2 {
+    margin-left: 13vw;
 }
 @keyframes move {
     0% {
@@ -214,6 +217,7 @@ html {
     }
     .project-samples {
         text-align: center;
+        height:10vw;
     }
     .project {
         display: block;
@@ -225,27 +229,31 @@ html {
         width: 300px;
         height: 600px;
     }
-    .project-cont2 {
-        margin-left: 8vw;
-    }
     .project-info2 {
+        width: 100vw;
         text-align: center;
+        display: flex;
+        justify-content: center;
     }
     .p-desc2 {
         text-align: center;
         width: 80vw;
-        margin-left: 10vw;
+        margin-right: 10vw;
         word-wrap: break-word;
     }
     .project-cont2 {
         height: 100vw;
         width: 100vw;
-    }
-    .project2 {
+        text-align: center;
         display: block;
+        padding-bottom: 15vw;
+    }
+    .project-header2 {
+        display: none;
+    }
+
+    .project2 {
         width: 100vw;
-        margin-left: 0;
-        margin-top: 120vh;
         text-align: center;
     }
   }
