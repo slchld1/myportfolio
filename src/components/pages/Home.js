@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 
 function Home() {
     return (
-        <section>
+        <section className='body'>
             <Container fluid className='home-page' id='home'>
                 <Container className='h-content container'>
                     <Row>
@@ -32,7 +32,7 @@ function Home() {
                     </Container>
                 <Container className='project-cont container'>
                     <Row className='project'>
-                        <Col md={8} className="project-render container">
+                        <Col md={8} className="project-render">
                             <div>
 
                             <h2 style={{ paddingBottom: 15}} className="project-header">
@@ -63,8 +63,8 @@ function Home() {
                             </a>
                             </div>
                         </Col>
-                    <Row className='project'>
-                        <Col md={8} className="project-render container">
+                    <Row className='project2'>
+                        <Col md={8} className="project-render">
                             <div>
 
                             <h2 style={{ paddingBottom: 15}} className="project-header2">
