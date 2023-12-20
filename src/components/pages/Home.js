@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Home.css'
 import WorkIcon from '@mui/icons-material/Work';
+import ContactsIcon from '@mui/icons-material/Contacts';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 import Image from 'react-bootstrap/Image';
 import Footer from '../Footer';
 
@@ -78,6 +81,21 @@ function Home() {
                             <p className='p-desc2'>Firefly Cafe is a Full Stack e-commerce website for a fictional cafe. This application was built for cafe's that want to reach out to their locals with a delivery service.</p>
                                 </div>
                         </div>
+                        </Col>
+                    </Row>
+                </Container>
+                <Container className='contact-container'>
+                    <Row className='contact'>
+                        <Col className='contact-heading'>
+                            <h1>
+                                <ContactsIcon/> Contact
+                            </h1>
+                        </Col>
+                        <Col className='linked-in'>
+                            <LinkedInIcon/> <a href='https://www.linkedin.com/in/minjae-c-065167128/' target='_blank'>https://www.linkedin.com/in/minjae-c-065167128/</a>
+                        </Col>
+                        <Col className='email'>
+                            <EmailIcon/> <a href='mailto:jaecho203@gmail.com'>jaecho203@gmail.com</a>
                         </Col>
                     </Row>
                 </Container>
