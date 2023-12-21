@@ -1,7 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 .body {
     width: 100vw;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    margin-left: 4vw;
+    font-family: 'Anonymous Pro';
 }
 .bold-text {
     font-weight: bolder;
 }
+
+
+.body li {
+    list-style-type: '♠️';
+    padding-inline-start: 1ch;
+  }

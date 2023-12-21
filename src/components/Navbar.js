@@ -45,16 +45,16 @@ function Navbar() {
                   Information
                 </Link>
               </li>
-              <li className='nav-item'>
+              {/* <li className='nav-item'>
                 <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                   Contact
                 </Link>
-              </li>
-              <li className='nav-item'>
+              </li> */}
+              {/* <li className='nav-item'>
                 <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
                   Projects
                 </Link>
-              </li>
+              </li> */}
           </ul>
           {button && <Button buttonStyle='btn--outline'><GitHubIcon></GitHubIcon></Button>}
           {button && <ButtonLinkedIn buttonStyle='btn--outline'><LinkedInIcon></LinkedInIcon></ButtonLinkedIn>}

@@ -29,7 +29,7 @@ function Home() {
                                 <span className="letter">.</span>
                             </h1>
                             <h1 style={{ paddingBottom: 15 }} className='heading2' data-text="dev">
-                                A Growing React Developer
+                                A Growing React Developer    
                             </h1>
                         </Col>
                     </Row>

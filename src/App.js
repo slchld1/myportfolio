@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "@fontsource/open-sans";
 import Home from './components/pages/Home';
 import Information from './components/pages/Information';
+import Contact from './components/pages/Contact';
 import Preloader from './components/Preloader';
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={< Home />} />
           <Route path='/info' element={< Information />}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
         </div>
       </Router>
