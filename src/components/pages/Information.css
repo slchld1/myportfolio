@@ -2,9 +2,10 @@
 
 .body {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 2vw;
     margin-left: 4vw;
     font-family: 'Anonymous Pro';
