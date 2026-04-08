@@ -52,7 +52,7 @@ function Home() {
                         </Col>
                         <Col xs={6} className='container'>
                             <div className='img-div'>
-                            <a href="https://github.com/slchld1/FLIPR" target='_blank'>
+                            <a href="https://github.com/slchld1/FLIPR" target='_blank' rel="noreferrer">
                             <Image className='flipr-img' src="flipr-sample950.png" rounded />
                             </a>
                             </div>
@@ -62,7 +62,7 @@ function Home() {
                 <Container className='project-cont2'>
                         <Col xs={6} className='container-rev'>
                             <div className='img-div'>
-                            <a href="https://github.com/oliviasylee/firefly-cafe/tree/main?tab=readme-ov-file" target='_blank'>
+                            <a href="https://github.com/oliviasylee/firefly-cafe/tree/main?tab=readme-ov-file" target='_blank' rel="noreferrer">
                             <Image className='flipr-img' src="homepage.jpg" rounded />
                             </a>
                             </div>
@@ -92,7 +92,7 @@ function Home() {
                             </h1>
                         </Col>
                         <Col className='linked-in'>
-                            <LinkedInIcon/> <a href='https://www.linkedin.com/in/minjae-c-065167128/' target='_blank'>https://www.linkedin.com/in/minjae-c-065167128/</a>
+                            <LinkedInIcon/> <a href='https://www.linkedin.com/in/minjae-c-065167128/' target='_blank' rel="noreferrer">https://www.linkedin.com/in/minjae-c-065167128/</a>
                         </Col>
                         <Col className='email'>
                             <EmailIcon/> <a href='mailto:jaecho203@gmail.com'>jaecho203@gmail.com</a>
