@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './Information.css';
 import Footer from '../Footer';
 
@@ -16,7 +16,7 @@ function Information() {
                 <h4>hosted by </h4>
                 <h3 className="bold-text">Georgia Institute of Technology.</h3>
                 <div>
-                <iframe src='Minjae_Cho_Resume.PDF' width={500} height={600} />
+                <iframe title="my-resume" src='Minjae_Cho_Resume.PDF' width={500} height={600} />
                 </div>
                 <br></br>
                 <h2>My Skills are</h2>
