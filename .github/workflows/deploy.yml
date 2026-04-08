@@ -18,6 +18,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 22
+      
 
     - name: Install and Build
       run: |
@@ -30,3 +31,5 @@ jobs:
       with:
         folder: build
         branch: gh-pages
+      env:
+         FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
